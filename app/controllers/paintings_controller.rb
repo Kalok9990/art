@@ -10,15 +10,18 @@ class PaintingsController < ApplicationController
   # GET /paintings/1
   # GET /paintings/1.json
   def show
+    @artist = @painting.artist
   end
 
   # GET /paintings/new
   def new
     @painting = Painting.new
+    @artists = Artist.all
   end
 
   # GET /paintings/1/edit
   def edit
+    @artists = Artist.all
   end
 
   # POST /paintings

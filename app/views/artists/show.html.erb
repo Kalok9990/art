@@ -10,5 +10,16 @@
   <%= @artist.age %>
 </p>
 
+<p>
+  <strong>Paintings:</strong>
+  <% if (@paintings.length == 0) %>
+    <p>There are no paintings</p>
+  <% else %>
+    <% @paintings.each do |painting| %> <br>
+    <%= painting.name %>
+    <% end %>
+  <% end %>
+</p>
+
 <%= link_to 'Edit', edit_artist_path(@artist) %> |
 <%= link_to 'Back', artists_path %>
