@@ -47,3 +47,14 @@ th{
 #painting_artist_id{
   margin-left: 20px;
 }
+
+nav{
+  background: black;
+}
+
+nav a{
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+  padding: 0 30px;
+}
