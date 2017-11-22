@@ -13,3 +13,37 @@
  *= require_tree .
  *= require_self
  */
+
+body{
+  background-color: #fafafa;
+  font-family: 'Spectral SC', serif;
+}
+
+td, th{
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even){
+  background-color: lightgray;
+}
+
+th{
+  background-color: darkgray;
+}
+
+#artist_age{
+  margin-left: 23px;
+}
+
+#artist_name{
+  margin-left: 10px;
+}
+
+#painting_name{
+  margin-left: 12px;
+}
+
+#painting_artist_id{
+  margin-left: 20px;
+}
