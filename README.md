@@ -1,24 +1,3 @@
-# README
+# Round 2 Ruby on rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This was a lot more straight fowrad now that I understood where all the class methods came from. It was easier to follow through logically where the code would go.
